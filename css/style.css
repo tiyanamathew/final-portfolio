@@ -28,3 +28,8 @@ p {
   margin-right: 2em;
   font-size: 96px;
 }
+
+.hero img {
+width: 10px;
+height: 10px;
+}
