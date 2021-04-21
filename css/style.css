@@ -5,6 +5,16 @@
   padding-top: 1em;
   padding-bottom: 1em;
 }
+
+.hov {
+  transition: 0.3s;
+}
+
+.hov:hover {
+  letter-spacing: 2px;
+  color: #00303a;
+  font-weight: 400;
+}
 .active {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
@@ -128,6 +138,14 @@ p {
   color: #00303a;
 }
 
-.hov :hover {
-  color: #0f5766;
+.mail:hover {
+  font-weight: 200;
+}
+
+.w {
+  transition: 0.3s;
+}
+
+.w:hover {
+  letter-spacing: 2px;
 }
