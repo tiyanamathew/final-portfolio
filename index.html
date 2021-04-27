@@ -23,66 +23,65 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Tiyana Mathew</title>
+    <title>tiyana mathew</title>
   </head>
   <body>
     <div class="hero">
-      <nav style="background-color: #c9d9db;" class="navbar navbar-expand-lg navbar-light navi">
-        <div class="container-fluid">
-          <a class="navbar-brand logo"style="color: #00303A;" href="#">tiyana mathew</a>
-          <button
-          class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-          <span>   
-              <i class="fas fa-bars" style="color: #00303A; font-size:24px;" ></i>
-          </span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" style="color:#00303A;" href="#">
-                  <span class="hov">
-                  home
-                </span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" style="color:#00303A;" href="#">
-                  <span class="hov">
-                  about me
-                </span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" style="color:#00303A;" href="#">
-                  <span class="hov">
-                  my work
-                  </span>
-                </a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" style="color:#00303A;" href="#">
-                    <span class="hov">
-                    experience
-                  </span>
-                  </a>
-                </li>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <h1>tiyana mathew</h1>
+        <nav style="background-color: #c9d9db;" class="navbar navbar-expand-lg navbar-light navi">
+            <div class="container-fluid">
+              <a class="navbar-brand logo"style="color: #00303A;" href="#">tiyana mathew</a>
+              <button
+              class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+              <span>   
+                  <i class="fas fa-bars" style="color: #00303A; font-size:24px;" ></i>
+              </span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" style="color:#00303A;" href="index.html">
+                      <span class="hov">
+                      home
+                    </span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" style="color:#00303A;" href="about.html">
+                      <span class="hov">
+                      about me
+                    </span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" style="color:#00303A;" href="work.html">
+                      <span class="hov">
+                      my work
+                      </span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" style="color:#00303A;" href="exp.html">
+                        <span class="hov">
+                        experience
+                      </span>
+                      </a>
+                    </li>
+                  </li>
+                </ul>
+              </div>
+          </nav>
+      <h1 class="hero-help">tiyana mathew</h1>
       <br />
-      <p>based in toronto, ontario.
+      <p class="hero-help">based in toronto, ontario.
           <br />
-          future technologist. 
+          <i onclick="myFunction()" class="fas fa-laptop-code"></i> future technologist. 
           <br />
           twelve years old.
       </p>
@@ -102,5 +101,11 @@
       </a>    
         </p>
        </div>
+       <script>
+        function myFunction() {
+        let element = document.querySelector(".hero");   
+        element.classList.toggle("bg-special");
+        }
+        </script>
   </body>
 </html>
