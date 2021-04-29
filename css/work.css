@@ -1,0 +1,183 @@
+.container-fluid {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.hov {
+  transition: 0.3s;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #00303a;
+}
+
+.hov:hover {
+  letter-spacing: 2px;
+  color: #00303a;
+  font-weight: 400;
+}
+.active {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+#contact {
+  padding-top: 5em;
+}
+
+#contact p {
+  text-align: center;
+  font-weight: 300;
+  background-color: #e2eaeb;
+  padding-top: 7em;
+  padding-bottom: 7em;
+}
+.mail {
+  text-decoration: none;
+  color: #00303a;
+}
+
+.mail:hover {
+  font-weight: 200;
+}
+
+.w {
+  transition: 0.3s;
+}
+
+a {
+  color: #00303a;
+  transition: 0.5s;
+  text-align: right;
+  font-size: 10px;
+}
+
+a:hover {
+  color: #00303a;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+@media (min-width: 1400px) {
+  p {
+    padding-left: 8em;
+  }
+  .title {
+    font-size: 48px;
+  }
+  #cats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  #weather {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+@media (min-width: 1200px) {
+  p {
+    padding-left: 7em;
+  }
+  .title {
+    font-size: 32px;
+  }
+  #cats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  #weather {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+@media (min-width: 992px) {
+  p {
+    padding-left: 6em;
+  }
+  .title {
+    font-size: 28px;
+  }
+  #cats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  #weather {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+@media (min-width: 768px) {
+  p {
+    padding-left: 5em;
+  }
+  img {
+    width: 20em;
+  }
+  .title {
+    font-size: 28px;
+  }
+  #cats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  #weather {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+@media (max-width: 576px) {
+  p {
+    padding-left: 4em;
+    padding-top: 4em;
+    text-align: right;
+  }
+  img {
+    width: 15em;
+    margin-left: 1em;
+    margin-top: 5em;
+  }
+  .title {
+    font-size: 24px;
+  }
+}
+
+.fa-cloud-sun-rain {
+  color: #c9d9db;
+}
+
+.fa-cat {
+  color: #00303a;
+}
+
+.gold {
+  color: gold;
+}
+
+.nani {
+  color: sienna;
+}
+
+#cats {
+  padding-top: 5em;
+}
+
+#weather {
+  padding-top: 5em;
+}
