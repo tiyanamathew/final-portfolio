@@ -71,8 +71,8 @@ a:hover {
   }
   img {
     margin-left: 10px;
-    height: 40em;
-    width: 40em;
+    height: 1319px;
+    width: 320px;
   }
 }
 @media (min-width: 1200px) {
@@ -80,9 +80,9 @@ a:hover {
     font-size: 18px;
   }
   img {
-    margin-left: 55px;
-    height: 30em;
-    width: 30em;
+    margin-left: 10px;
+    height: 1319px;
+    width: 320px;
   }
 }
 @media (min-width: 992px) {
