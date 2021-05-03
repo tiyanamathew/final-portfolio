@@ -1,0 +1,29 @@
+@media (max-width: 576px) {
+  #logo {
+    font-size: 10px;
+  }
+  iframe {
+    width: 16em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+  .paraplayer {
+    font-size: 12px;
+  }
+}
+@media (min-width: 320px) {
+  #logo {
+    font-size: 18px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 992px) {
+}
+@media (min-width: 1200px) {
+}
+@media (min-width: 1400px) {
+}
