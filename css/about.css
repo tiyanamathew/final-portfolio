@@ -114,4 +114,7 @@ a:hover {
     height: 10em;
     width: 10em;
   }
+  .logo {
+  font-size: 12px;
+  }
 }
