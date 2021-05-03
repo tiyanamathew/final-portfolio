@@ -25,6 +25,10 @@
   text-align: right;
 }
 
+body {
+background-color: #e2eaeb;
+}
+
 .hero p {
   font-family: "Montserrat", sans-serif;
   color: #00303a;
@@ -36,7 +40,7 @@
   font-weight: 400;
 }
 .hero {
-  background-color: #e2eaeb;
+  background-color: #00303A;
   height: 40em;
 }
 .workpage button {
