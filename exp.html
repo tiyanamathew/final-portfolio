@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="logo.png" type="image">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500&display=swap" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/exp-response.css" />
+    <link rel="stylesheet" href="css/exp.css" />
+    <script
+      src="https://kit.fontawesome.com/af3e25e341.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>tiyana mathew - experience</title>
+    <meta name="description"  content="tiyana mathew has graduated from four shecodes workshops and has been interviewed for the site as well. she can use css toggles, use flexbox, and make embeds. she can also make javascript functions and responsive webpages." />
+  </head>
+  <body>
+      <nav style="background-color: #c9d9db;" class="navbar navbar-expand-lg navbar-light navi">
+          <div class="container-fluid">
+            <a class="navbar-brand" id="logo" style="color: #00303A;" href="#">tiyana mathew</a>
+            <button
+            class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+            <span>   
+                <i class="fas fa-bars" style="color: #00303A; font-size:24px;" ></i>
+            </span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" style="color:#00303A;" href="index.html">
+                    <span class="hov">
+                    home
+                  </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" style="color:#00303A;" href="about.html">
+                    <span class="hov">
+                    about me
+                  </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" style="color:#00303A;" href="work.html">
+                    <span class="hov">
+                    my work
+                    </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" style="color:#00303A;" href="exp.html">
+                      <span class="hov">
+                      experience
+                    </span>
+                    </a>
+                  </li>
+                </li>
+              </ul>
+            </div>
+        </nav>
+        <div class="switch">
+        <h2>
+            i've graduated from four workshops at 
+            <a id="shecodes" href="https://www.shecodes.io/stories/Tiyana-future-technologist" target="_blank" style="text-decoration: underline;">shecodes<a/>. 
+              </h2>
+              <h3>
+              here's a few cool things i can do!
+              </h3>
+              <h4 class="javascript-toggle">hire you a girl that can do
+                  <button onclick="darkMode();">
+                    <a>
+                      both
+                    </a>
+                  </button> 
+                </h4>
+                <hr />
+                <div class="box">
+                  <h4 class="norm">flex</h4>
+                  <h4 class="norm">box</h4>
+                </div>
+                <hr id="hrTwo" />
+                <div id="embeddy">
+                <h4 id="embed">embedding productivity</h4>
+                <p  class="paraplayer">here's some calming music to listen to while you work!</p>  
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/7NOSDKb0HlU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
+           <p id="space"style="font-weight: 300; font-size: 12px;">credit to 
+             <a id="smol" class="chill" href="https://www.youtube.com/channel/UCOxqgCwgOqC2lMqC5PYz_Dg" target="_blank">
+              chillhop music
+             </a>
+           </p>
+          </div>
+           <hr />
+           <div id="prompting"  class="javascript-toggle">
+              <button onclick="button();">
+                  <a>
+                    prompting conversation
+                  </a>
+                </button>  
+          </div>
+          <hr />
+          <div id="response">
+          <i class="fas fa-laptop-code"></i>
+          <p>this entire website is responsive</p>
+          </div>     
+        </div>
+        <div id="contact">
+            <p>
+                <a target="_blank" href="https://github.com/tiyanamathew/final-portfolio"><i class="fab fa-github"></i></a>
+              let's get together:
+              <a target="_blank" href="mailto:mathewtiyana@gmail.com" class="mail hov">
+                email me
+            </a>    
+              </p>
+             </div>
+             <script>
+                function darkMode() {
+                let element = document.querySelector(".switch");   
+                element.classList.toggle("dark");
+                }
+                function button() {
+        let qOne = prompt("hiya! what's your name?");
+        let mOne = alert("oh cool! " + qOne + " is a super nice name.")
+        let qTwo = prompt("how has your day been so far " + qOne + "?");
+        let qThree = prompt("hm... wanna talk about it?")
+        if (qThree === "yes") {
+          alert("go ahead, " + qOne + "! your answers will not be recorded. hope the rest of your day goes amazing!")
+        } else {
+          alert("either you said no, or your response isn't recognizable for me. either way, i get it " + qOne + "! have a nice day!")
+        }
+
+      }
+      let changeButton = document.querySelector("button");
+      changeButton.addEventListener("click", button);
+                </script>
+                <style>
+                  @media (min-width: 320px) {
+  #logo {
+    font-size: 18px;
+  }
+}
+@media (min-width: 720px) {
+  #logo {
+    font-size: 32px;
+  }
+}
+                  </style>
+</body>
+</html>
