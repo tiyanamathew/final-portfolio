@@ -23,12 +23,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>tiyana mathew</title>
+    <title>tiyana mathew - work</title>
+    <meta name="description"  content="tiyana's older projects. an app about cats, and a weather app made with react. enjoy looking for a few easter eggs on this page!" />
   </head>
   <body>
       <nav style="background-color: #c9d9db;" class="navbar navbar-expand-lg navbar-light navi">
         <div class="container-fluid">
-          <a class="navbar-brand logo"style="color: #00303A;" href="#">tiyana mathew</a>
+          <a class="navbar-brand" id="logo" style="color: #00303A;" href="#">tiyana mathew</a>
           <button
           class="navbar-toggler"
             type="button"
@@ -46,20 +47,20 @@
             <ul class="navbar-nav mr-auto">
               <li class="nav-item">
                 <a class="nav-link" style="color:#00303A;" href="index.html">
-                  <span class="hov">
+                <span class="hov">
                   home
                 </span>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" style="color:#00303A;" href="about.html">
+                <a class="nav-link " aria-current="page" style="color:#00303A;" href="about.html">
                   <span class="hov">
                   about me
                 </span>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" style="color:#00303A;" href="work.html">
+                <a class="nav-link active" style="color:#00303A;" href="work.html">
                   <span class="hov">
                   my work
                   </span>
@@ -79,7 +80,7 @@
     </div>
     <div class="container">   
 <span id="cats">
-  <img src="https://media.giphy.com/media/Jbb3KS22397YQ/giphy.gif" />
+  <img id="cat-pic" src="https://media.discordapp.net/attachments/814448220796223519/838547718821249104/unknown.png?width=1134&height=638" />
   <p>
     <span class="title">
       <i onclick="nani()" class="fas fa-cat"></i> cats
@@ -98,9 +99,10 @@
   </p>
   <br /> <br />
 </span>
-<a id="weather-link" href="https://admiring-ardinghelli-d23472.netlify.app/" target="_blank">launch cat project</a>
+<a id="cat-link" href="https://admiring-ardinghelli-d23472.netlify.app/" target="_blank" class="link">launch cat project</a>
+<br id="link-break" />
 <span id="weather">
-    <img src="https://media.giphy.com/media/Jbb3KS22397YQ/giphy.gif" />  
+    <img src="https://media.discordapp.net/attachments/814448220796223519/838554188278399006/unknown.png?width=1134&height=638" />  
   <p>
       <span class="title">
           <i onclick="gold()" class="fas fa-cloud-sun-rain"></i> weather
@@ -113,10 +115,11 @@
       by netlify with github.
     </p>
   </span>
-  <a id="cat-link" href="https://distracted-noether-e46b18.netlify.app/" target="_blank">launch cat project</a>
+  <a id="weather-link" class="link" href="https://distracted-noether-e46b18.netlify.app/" target="_blank">launch weather project</a>
         </div>
           <div id="contact">
       <p>
+          <a target="_blank" href="https://github.com/tiyanamathew/final-portfolio"><i class="fab fa-github"></i></a>
         let's get together:
         <a target="_blank" href="mailto:mathewtiyana@gmail.com" class="mail hov">
           email me
@@ -133,5 +136,19 @@
           element.classList.toggle("gold");
         }
         </script>
+        <style>
+          @media (min-width: 1024px) {
+  #cats {
+    margin-top: 10em;
+  }
+  #logo {
+    font-size: 48px;
+  }
+  #weather {
+    margin-top: 5em;
+    margin-bottom: 10em;
+  }
+}
+          </style>
       </body>
 </html>
