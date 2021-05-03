@@ -1,3 +1,9 @@
+link:hover {
+  color: #00303a;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
 .container-fluid {
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
@@ -13,6 +19,14 @@
 body {
   font-family: "Montserrat", sans-serif;
   color: #00303a;
+}
+
+#cat-link:hover {
+  letter-spacing: 2px;
+}
+
+#weather-link:hover {
+  letter-spacing: 2px;
 }
 
 .hov:hover {
@@ -40,6 +54,9 @@ body {
   background-color: #e2eaeb;
   padding-top: 7em;
   padding-bottom: 7em;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  color: #00303a;
 }
 .mail {
   text-decoration: none;
@@ -57,14 +74,15 @@ body {
 a {
   color: #00303a;
   transition: 0.5s;
+}
+
+.link {
   text-align: right;
   font-size: 10px;
 }
 
 a:hover {
   color: #00303a;
-  font-weight: 400;
-  letter-spacing: 2px;
 }
 
 @media (min-width: 1400px) {
@@ -84,10 +102,16 @@ a:hover {
     flex-direction: row;
     justify-content: space-evenly;
   }
+  img {
+    width: 28em;
+  }
 }
 @media (min-width: 1200px) {
   p {
     padding-left: 7em;
+  }
+  img {
+    width: 24em;
   }
   .title {
     font-size: 32px;
@@ -101,6 +125,18 @@ a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+  }
+}
+@media (min-width: 1024px) {
+  #cats {
+    margin-top: 10em;
+  }
+  #logo {
+    font-size: 48px;
+  }
+  #weather {
+    margin-top: 5em;
+    margin-bottom: 10em;
   }
 }
 @media (min-width: 992px) {
@@ -120,16 +156,24 @@ a:hover {
     flex-direction: row;
     justify-content: space-evenly;
   }
+  img {
+    width: 21em;
+    height: 12em;
+  }
 }
 @media (min-width: 768px) {
+  #link-break {
+    display: none;
+  }
   p {
     padding-left: 5em;
   }
-  img {
-    width: 20em;
-  }
   .title {
     font-size: 28px;
+  }
+  img {
+    width: 21em;
+    height: 12em;
   }
   #cats {
     display: flex;
@@ -142,15 +186,21 @@ a:hover {
     justify-content: space-evenly;
   }
 }
+
 @media (max-width: 576px) {
   p {
     padding-left: 4em;
     padding-top: 4em;
     text-align: right;
+    font-size: 12px;
   }
+  #logo {
+    font-size: 14px;
+  }
+
   img {
-    width: 15em;
-    margin-left: 1em;
+    width: 21em;
+    height: 12em;
     margin-top: 5em;
   }
   .title {
@@ -158,6 +208,26 @@ a:hover {
   }
 }
 
+@media (min-width: 320px) {
+  img {
+    width: 260px;
+    height: 9em;
+  }
+  #logo {
+    font-size: 21px;
+    font-weight: 400;
+  }
+}
+@media (min-width: 280px) {
+  img {
+    width: 260px;
+    height: 9em;
+  }
+  #logo {
+    font-size: 21px;
+    font-weight: 400;
+  }
+}
 .fa-cloud-sun-rain {
   color: #c9d9db;
 }
