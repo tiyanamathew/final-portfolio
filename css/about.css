@@ -36,6 +36,9 @@ body {
   background-color: #e2eaeb;
   padding-top: 7em;
   padding-bottom: 7em;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  color: #00303a;
 }
 .mail {
   text-decoration: none;
